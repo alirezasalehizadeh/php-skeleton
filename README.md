@@ -1,15 +1,17 @@
 # PHP-Skeleton
 
-My skeleton for PHP packages.
+Simple skeleton for PHP packages.
 
 ## Features
-
+*Optimized with latest PHP version.
 
 ##  Requirements
 PHP >= 8.2
 
 
 ## Getting Started
+
+
 #### Installation:
 via Composer:
 ```
@@ -18,15 +20,6 @@ composer create-project alirezasalehizadeh/php-skeleton project-name
 
 ## Usage
 
-Keep a modern codebase with **Pint**:
-```
-composer lint
-```
-
-Run tests using **PEST**
-```
-composer test
-```
 
 ## Contributing
 Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.

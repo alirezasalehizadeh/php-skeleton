@@ -1,6 +1,6 @@
 {
     "name": "alirezasalehizadeh/php-skeleton",
-    "description": "My skeleton for PHP packages.",
+    "description": "Simple skeleton for PHP packages.",
     "keywords": ["php", "skeleton", "package"],
     "license": "MIT",
     "authors": [
@@ -13,7 +13,6 @@
         "php": "^8.2.0"
     },
     "require-dev": {
-        "laravel/pint": "^1.10.1",
         "pestphp/pest": "^2.6.3"
     },
     "autoload": {
@@ -34,14 +33,5 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    },
-    "scripts": {
-        "lint": "pint",
-        "test:lint": "pint --test",
-        "test:unit": "pest --colors=always",
-        "test": [
-            "@test:lint",
-            "@test:unit"
-        ]
     }
 }

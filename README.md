@@ -3,7 +3,7 @@
 Simple skeleton for PHP packages.
 
 ## Features
-*Optimized with latest PHP version.
+* Optimized with latest PHP version.
 
 ##  Requirements
 PHP >= 8.2
